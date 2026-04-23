@@ -32,7 +32,7 @@ public class Main {
 		String message = input.nextLine();
 		System.out.println(message);
 		System.out.println("Please enter the shift number");
-		int shift = input.nextInt() / 26;
+		int shift = input.nextInt();
 		Cipher caesar = new CaesarClass(shift);
 		System.out.println("(E)ncode or (D)ecode ?");
 		char choice = input.nextLine().charAt(0);
